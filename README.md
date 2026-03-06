@@ -3,14 +3,23 @@
 A Python-based Voice AI assistant that combines speech recognition, language model APIs, and a web chat interface to enable real-time voice and text conversations.
 
 📁 Project Structure
+
 voice-ai/
+
 ├── main.py           # Entry point for the voice assistant
+
 ├── main_data.py      # Entry point with data-augmented capabilities
+
 ├── api.py            # Core API integration (LLM / speech services)
+
 ├── api_data.py       # API integration with data tool support
+
 ├── data_tools.py     # Tools for querying and processing data
+
 ├── web_chat.py       # Web-based chat interface
+
 ├── voice/            # Voice assets and audio utilities
+
 └── data/             # Data files used by the assistant
 
 🚀 Features
